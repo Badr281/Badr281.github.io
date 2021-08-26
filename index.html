@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap" rel="stylesheet">
+   <style>
+
+     body{
+       background: url("images/pattern-background-desktop.svg");
+     }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .checkout-card {
+      width: 100%;
+      height: 90vh;
+      display: flex;
+      justify-content: space-around;
+    }
+    .checkout-card .card-primary{
+      width: 450px;
+      height: 100%;
+      justify-items: center;
+      background-color: white;
+      border-radius: 14px;
+    }
+
+    .card-body{
+      margin: 3rem;
+    }
+    p{
+      font-size:16px ;
+      font-family: 'Red Hat Display', sans-serif;
+    }
+    #headerHero-img {
+      border-top-left-radius: 1rem;
+      border-top-right-radius: 1rem;
+    }
+   .card-body> h1, .card-body> p{
+        text-align: center;
+   }
+   .checkout-section{
+     padding-left: 1rem;
+     margin-bottom: 2rem;
+     background: hsl(225, 100%, 98%);
+     border-radius: 1rem;
+   }
+   .price{
+     display: inline-block;
+     padding-left: 2rem;
+   }
+   #changeParent{
+     float: right;
+   }
+   #change{
+     position: relative;
+     right: 2rem;
+     top: 2rem;
+   }
+     #proceedPayment{
+       padding: 0rem;
+       border-radius: 1rem;
+       width: 22rem;
+       border: 1rem solid transparent;
+       background-color: hsl(245, 75%, 52%);
+       margin-bottom: 1rem;
+       color: white;
+       font-weight: bold;
+       box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+
+     }
+     #cancel{
+       background: none;
+       color: #6c757d;
+       font-weight: 700;
+       width: 22rem;
+       border: none;
+      }
+     @media (max-width: 668px) and (min-width: 450px){
+       .card-primary{
+       height: 76vh !important;
+       border-radius: 1rem;
+       }
+     }
+      @media (max-width: 450px){
+      .card-primary{
+        height: 97vh !important;
+        border-radius: 1rem;
+      }
+      }
+  </style>
+</head>
+<body>
+
+<main>
+  <section class="checkout-card">
+    <div class="card-primary">
+      <div class="card-header">
+        <img src="images/illustration-hero.svg" alt="" id="headerHero-img">
+      </div>
+
+      <div class="card-body">
+             <h1>Order Summary</h1>
+             <p>You can now listen to millions of songs, audiobooks, and podcasts on any
+               device anywhere you like!</p>
+
+        <div class="checkout-section">
+          <img src="images/icon-music.svg" alt="">
+          <span class="price"><h5>Annual plan</h5><p>$55.00/year</p></span>
+        <div id="changeParent">
+          <a href="#change" id="change">Change</a>
+        </div>
+        </div>
+         <button id="proceedPayment">Proceed to payment</button>
+        <button id="cancel">Cancel Order</button>
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+</main>
+<!--<div style="width: 200px; height: 400px; background-image: url('images/illustration-hero.svg'); ">-->
+
+<!--    <div>-->
+
+
+<!--    </div>-->
+
+<!--</div>-->
+<!--  Order Summary-->
+
+<!--  You can now listen to millions of songs, audiobooks, and podcasts on any-->
+<!--  device anywhere you like!-->
+
+<!--  Annual Plan-->
+<!--  $59.99/year-->
+
+<!--  Change-->
+
+<!--  Proceed to Payment-->
+<!--  Cancel Order-->
+
+<!--  <div class="attribution">-->
+<!--    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.-->
+<!--    Coded by <a href="#">Your Name Here</a>.-->
+<!--  </div>-->
+</body>
+</html>
