@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ca9625e-7efa-44c6-a2dd-f8926dec2261" name="Default Changelist" comment="" />
+    <list default="true" id="2ca9625e-7efa-44c6-a2dd-f8926dec2261" name="Default Changelist" comment="frontendmentors suite">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,18 +54,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1629830755815</updated>
-      <workItem from="1629830761980" duration="30778000" />
+      <workItem from="1629830761980" duration="32042000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="frontendmentors suite" />
+    <option name="LAST_COMMIT_MESSAGE" value="frontendmentors suite" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1629996191872">
+    <state x="189" y="0" key="CommitChangelistDialog2" timestamp="1629997984856">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629996191872" />
+    <state x="189" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1629997984856" />
     <state x="55" y="56" width="1239" height="673" key="dock-window-1" timestamp="1629904509168">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
